@@ -1,2 +1,0 @@
-# kiddhmh.github.io
-bolg
