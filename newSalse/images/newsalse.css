@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+
+
+#c{
+    width: 100%;
+    height: auto;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.blur {
+    -webkit-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+
+#container-ios,
+#container-android,
+#container{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    /*text-align: center;*/
+    /*color: #fff;*/
+    /*color: cornflowerblue*/
+    /*background:;*/
+}
+
+
+
+body div{
+    text-align: center;
+}
+
+
+body .logo{
+    margin-top: 60px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+body .logo img{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+
+}
+
+body .salse_title{
+    text-align: center;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+body .salse_title span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+
+}
+
+body .salse_download{
+    height: 41px;
+    margin-bottom: 30px;
+}
+
+body .salse_download a{
+    display: inline-block;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 15px;
+    width: 138px;
+    height: 41px;
+    text-decoration: none;
+    line-height: 41px;
+}
+
+body .message-info{
+    margin: 30px 10px 60px 10px;
+}
+
+body .message-info .ccic-ercode{
+    margin-bottom: 20px;
+}
+body .message-info .ccic-ercode span{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+}
+
+body .message-info .ccic-ercode img{
+    width: 150px;
+    height: 150px;
+}
+
+body .message-info h3{
+    text-align: left;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+}
+
+body .message-info p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    text-indent: 2em;
+    line-height: 1.5em;
+
+}

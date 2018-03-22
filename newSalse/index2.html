@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="images/jquery.min.js"></script>
+    <link rel="shortcut icon" href="./images/favicon.ico" >
+    <link href="./images/newsalse.css" rel="stylesheet" type="text/css">
+    <title>移动销售支持</title>
+
+
+</head>
+<body>
+<!--iOS平台-->
+<div id="container-ios">
+    <div class="logo">
+        <img src="./images/logo.png" alt="手机销售支持">
+    </div>
+    <div class="salse_title">
+        <span >新版移动销售支持</span>&nbsp;&nbsp;&nbsp;<span style="font-family: 'Microsoft YaHei'">设备平台:iOS</span>
+    </div>
+    <div class="salse_download">
+        <a href="itms-services://?action=download-manifest&amp;url=https://secure.95590.cn/iosapp/newsales.plist">立即下载</a>
+    </div>
+
+    <div style="background: #f2f2f2;width: 100%;height: 1px;"></div>
+    <!--<hr/>-->
+
+    <div class="message-info">
+        <div class="ccic-ercode">
+            <span>分享给其他人--扫一扫</span><span >还有Android版本喔</span>
+            <img src="./images/ccic-newsalse.png">
+        </div>
+        <h3>温馨提示：</h3>
+        <p>请扫描二维码进行下载，所有带扫一扫功能的软件都已支持（如微信、手机QQ、支付宝、UC浏览器、我查查）。
+            如果使用微信下载Android版软件未成功，请点击右上角菜单，选择在浏览器打开，进行下载。
+        </p>
+        <p>
+            1、版本要求：iPhone版目前支持iOS 8.0及以上，Andriod版目前支持Android 2.3及以上。
+        </p>
+        <p>
+            2、屏幕要求：3.5英寸及以上。
+        </p>
+
+    </div>
+</div>
+
+<!--安卓平台-->
+<div id="container-android">
+
+    <div class="logo">
+        <img src="./images/logo.png" alt="手机销售支持">
+    </div>
+    <div class="salse_title">
+        <span>新版移动销售支持</span>&nbsp;&nbsp;&nbsp;<span style="font-family: 'Microsoft YaHei'">设备平台:Android</span>
+    </div>
+    <div class="salse_download">
+        <a href="http://download.ccic-net.com.cn:6969/ccic-mssh5.apk">立即下载</a>
+    </div>
+    <!--<hr/>-->
+    <div style="background: #f2f2f2;width: 100%;height: 1px; margin: 0 auto;"></div>
+
+    <div class="message-info">
+        <div class="ccic-ercode">
+            <span>分享给其他人--扫一扫</span><span>还有iOS版本喔</span>
+            <img src="./images/ccic-newsalse.png">
+        </div>
+        <h3>温馨提示：</h3>
+        <p>请扫描二维码进行下载，所有带扫一扫功能的软件都已支持（如微信、手机QQ、支付宝、UC浏览器、我查查）。
+            如果使用微信下载Android版软件未成功，请点击右上角菜单，选择在浏览器打开，进行下载。
+        </p>
+        <p>
+            1、版本要求：iPhone版目前支持iOS 8.0及以上，Andriod版目前支持Android 2.3及以上。
+        </p>
+        <p>
+            2、屏幕要求：3.5英寸及以上。
+        </p>
+
+    </div>
+</div>
+
+<div id="container">
+    <div class="logo">
+        <img src="./images/logo.png" alt="手机销售支持">
+    </div>
+    <div class="salse_title">
+        <span>新版移动销售支持</span>&nbsp;&nbsp;&nbsp;<span style="font-family: 'Microsoft YaHei'">设备平台:iOS</span>
+    </div>
+    <div class="salse_download">
+        <a href="itms-services://?action=download-manifest&amp;url=https://secure.95590.cn/iosapp/newsales.plist">立即下载</a>
+    </div>
+    <!--<hr/>-->
+    <div style="background: #f2f2f2;width: 100%;height: 1px;"></div>
+    <div class="logo">
+        <img src="./images/logo.png" alt="手机销售支持">
+    </div>
+    <div class="salse_title">
+        <span>新版移动销售支持</span>&nbsp;&nbsp;&nbsp;<span style="font-family: 'Microsoft YaHei'">设备平台:Android</span>
+    </div>
+    <div class="salse_download">
+        <a href="http://download.ccic-net.com.cn:6969/ccic-mssh5.apk">立即下载</a>
+    </div>
+    <!--<hr/>-->
+    <div style="background: #f2f2f2;width: 100%;height: 1px;"></div>
+    <div class="message-info">
+        <div class="ccic-ercode">
+            <span>分享给其他人--扫一扫</span>
+            <img src="./images/ccic-newsalse.png">
+        </div>
+        <h3>温馨提示：</h3>
+        <p>请扫描二维码进行下载，所有带扫一扫功能的软件都已支持（如微信、手机QQ、支付宝、UC浏览器、我查查）。
+            如果使用微信下载Android版软件未成功，请点击右上角菜单，选择在浏览器打开，进行下载。
+        </p>
+        <p>
+            1、版本要求：iPhone版目前支持iOS 8.0及以上，Andriod版目前支持Android 2.3及以上。
+        </p>
+        <p>
+            2、屏幕要求：3.5英寸及以上。
+        </p>
+
+    </div>
+</div>
+
+
+<canvas id="c" class="blur"></canvas>
+
+<script>
+
+    var iOST = document.getElementById("container-ios");
+    var androidT = document.getElementById("container-android");
+    var web = document.getElementById("container");
+
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+
+    if (isiOS){
+        androidT.style.display = "none";
+        web.style.display = "none";
+    } else if (isAndroid) {
+        iOST.style.display = "none";
+        web.style.display = "none";
+    } else {
+        //网页部分  加载网页代码
+        androidT.style.display = "none";
+        iOST.style.display = "none";
+    }
+</script>
+
+
+<script src="./images/newsalse.js" type="text/javascript"></script>
+
+</body>
+</html>
